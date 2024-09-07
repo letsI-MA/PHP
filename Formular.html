@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<form action="evaluateForm.php" method="post">
+    <label for="txtFirstName">Vorname</label>
+    <input id="txtFirstName" name="txtFirstName" type="text"
+           required value="" placeholder="Vorname">
+    <br>
+    <label for="txtLastName">Nachname</label>
+    <input id="txtLastName" name="txtLastName" type="text"
+           required value="" placeholder="Nachname">
+    <br>
+    <label for="datBirthDate">Geburtsdatum</label>
+    <input id="datBirthDate" name="datBirthDate" type="date">
+    <br>
+    <label for="chkMarried">verheiratet</label>
+    <input id="chkMarried" name="chkMarried" type="checkbox" value="true" checked>
+    <br>
+    <input id="btnSubmit" name="btnSubmit" type="submit" value="absenden">
+</form>
+
+<?php
+?>
+
+
+
+</body>
+</html>
